@@ -24,14 +24,6 @@
     font-weight: bold;
   }
 
-  h3 {
-    text-align: center;
-    font-style: italic;
-    font-weight: regular;
-    padding: 0;
-    margin: 0;
-  }
-
   ul:nth-child(odd) {
     width: 43%;
     text-align: center;
@@ -44,7 +36,9 @@
 
   p {
     text-align: center;
-    font-weight: regular;
+    font-weight: bold;
+    margin: 1% auto 1% auto;
+    max-width: 50%;
   }
 
   a {
@@ -69,11 +63,8 @@
 
 /* Classes styling */
   .SubText {
-    text-align: inherit;
     font-size: 10pt;
-    font-weight: bold;
     padding: 0;
-    margin: 0;
   }
 
   .Specs {
@@ -88,6 +79,7 @@
     display: block;
     width: 80%;
     margin: auto auto auto auto;
+    padding: 2px;
   }
   
   #Gen_stuff {
