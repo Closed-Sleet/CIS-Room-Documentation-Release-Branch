@@ -38,6 +38,11 @@
     font-weight: regular;
   }
 
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
   a {
     color: blue;
   }
@@ -52,9 +57,15 @@
     height: auto;
   }
 
+  footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(20,20,20);
+  }
+
 /* Classes styling */
   .SubText {
-    text-align: left;
+    text-align: inherit;
     font-size: 10pt;
     font-weight: bold;
     padding: 0;
