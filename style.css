@@ -1,107 +1,11 @@
-/* Importing Dependencies/Fonts*/
+/* Importing Dependencies/Fonts */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('CSS/WidesScreen.css');
+@import url('CSS/PortraitScreen.css');
 
-/* Tag styling */
-html, body {
-  background-color: rgb(30,30,30);
-  color: rgb(200,200,200);
-  height: auto;
-  width: auto;
-  font-family: 'IBM Plex Mono', monospace;
-}
-
-h1 {
-  font-size: 2em;
-  text-align: center;
-  font-weight: bold;
-  margin: 0 auto 0 auto;
-}
-
-h2 {
-  text-align: center;
-  font-weight: bold;
-}
-
-h3 {
-  text-align: center;
-  font-style: italic;
-  font-weight: regular;
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  text-align: center;
-  font-weight: regular;
-}
-
-a {
-  color: blue;
-}
-
-a:hover {
-  color: purple;
-}
-
-/* Classes styling */
-.SubText {
-  text-align: left;
-  font-size: 10pt;
-  font-weight: bold;
-  padding: 0;
-  margin: 0;
-}
-
-/* ID styling */
-#title {
-  display: block;
-  width: 80%;
-  margin: auto auto auto auto;
-}
-
-@media (max-width: 1615px){
-  section {
-    display: block;
-    width: auto;
-    height: auto;
-  }
-  
-  #Gen_stuff {
-    background-color: rgb(15, 15, 15);
-    border: 0.5em solid black;
-    margin: auto 0 auto 0;
-  }
-  
-  #Spec_stuff {
-    background-color: rgb(10, 10, 10);
-    border: 0.5em solid black;
-    margin: auto 0 auto 0;
-  }
-}
-
-
-/* Change layout based on screen size */
-
-@media (min-width: 1616px){
-  section {
-    display: block;
-    width: 48%;
-    height: auto;
-  }
-  
-  #Gen_stuff {
-    padding: 1em;
-    float: left;
-    background-color: rgb(15, 15, 15);
-    margin-right: 0;
-    text-align: left;
-  }
-  
-  #Spec_stuff {
-    padding: 1em;
-    float: right;
-    background-color: rgb(10, 10, 10);
-    margin-left: 0;
-    text-align: left;
-  }
-}
+/* 
+  Currently this site is a very patchwork site, this CSS is made to be more readable than functional.
+  Same goes for the HTML, Try and keep it this way in any changes that you try to push.
+  Imports have to be at the top so no conditionals without java script.
+  Optimization is poor because of this.
+*/
