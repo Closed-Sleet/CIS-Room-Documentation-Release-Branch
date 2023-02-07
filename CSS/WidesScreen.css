@@ -6,7 +6,7 @@
 /* Tag styling */
   html, body {
     background-color: rgb(29, 17, 0);
-    color: rgb(200,200,200);
+    color: #5b6770;
     height: auto;
     width: auto;
     font-family: 'IBM Plex Mono', monospace;
@@ -54,8 +54,10 @@
 
   section {
     display: block;
+    position: relative;
+    left: 5%;
     margin: auto auto auto auto;
-    width: 80%;
+    width: 90%;
   }
 
   article {
@@ -71,7 +73,7 @@
     width: 10%;
     height: 100%;
     text-align: left;
-    background-color: rgba(102, 57, 2, 0.9);
+    background-color: #653024;
   }
 
   footer ul {
@@ -92,9 +94,9 @@
 
   .Specs {
     display: inline-block;
-    background-color: rgb(49, 42, 31);
     padding: 1rem 1rem;
     vertical-align: top;
+    border: 2px rgba(0,0,0,0.3) solid;
   }
 
 /* ID styling */
@@ -103,17 +105,18 @@
     width: 80%;
     margin: auto auto auto auto;
     padding: 2px;
+    color: #d0d3d4;
   }
   
   #Gen_stuff {
     padding: 1em;
-    background-color: rgb(87, 74, 57);
+    background-color: #e7ceb5;
     text-align: center;
   }
   
   #Spec_stuff {
     padding: 1em;
-    background-color: rgb(87, 74, 57);
+    background-color: #e7ceb5;
     text-align: center;
   }
 

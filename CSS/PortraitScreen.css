@@ -58,9 +58,17 @@
   }
 
   footer {
+    position: absolute;
+    left: 0;
     width: 100%;
     text-align: center;
     background-color: rgb(20,20,20);
+  }
+
+  footer ul {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0;
   }
 
 /* Classes styling */
