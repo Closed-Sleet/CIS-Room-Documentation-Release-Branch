@@ -1,0 +1,123 @@
+/* Importing Dependencies/Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@media (min-width: 1616px){
+  
+/* Tag styling */
+  html, body {
+    background-color: rgb(29, 17, 0);
+    color: #5b6770;
+    height: auto;
+    width: auto;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  ul.Specs {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  ul:nth-child(odd) {
+    width: 45%;
+  }
+
+  ul:nth-child(even) {
+    width: 45%;
+  }
+
+  p {
+    text-align: center;
+    font-weight: bold;
+    margin: 1% auto 1% auto;
+    max-width: 50%;
+  }
+
+  a {
+    color: rgb(10, 116, 0);
+  }
+
+  a:hover {
+    color: rgb(105, 157, 255);
+  }
+
+  section {
+    display: block;
+    position: relative;
+    left: 5%;
+    margin: auto auto auto auto;
+    width: 90%;
+  }
+
+  article {
+    padding: 0;
+    margin: auto auto auto auto;
+  }
+
+  footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    text-align: left;
+    background-color: #653024;
+  }
+
+  footer ul {
+    list-style-type: none;
+    text-align: left;
+  }
+
+  footer a {
+    font-size: 24pt;
+    text-align: left;
+  }
+
+/* Classes styling */
+  .SubText {
+    font-size: 10pt;
+    padding: 0;
+  }
+
+  .Specs {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: top;
+    border: 2px rgba(0,0,0,0.3) solid;
+  }
+
+/* ID styling */
+  #title {
+    display: block;
+    width: 80%;
+    margin: auto auto auto auto;
+    padding: 2px;
+    color: #d0d3d4;
+  }
+  
+  #Gen_stuff {
+    padding: 1em;
+    background-color: #e7ceb5;
+    text-align: center;
+  }
+  
+  #Spec_stuff {
+    padding: 1em;
+    background-color: #e7ceb5;
+    text-align: center;
+  }
+
+}
