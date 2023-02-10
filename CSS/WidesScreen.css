@@ -13,15 +13,20 @@
    
   /* CSS Animations*/
   @keyframes SidebarHover {
-    0%   {width: 0%;  background-color: rgba(29, 17, 0, 0);}
-    100% {width: 100%; background-color: rgba(29, 17, 0, 1);}
+    0%   {width: 100%;  background-color: rgba(29, 17, 0, 0);}
+    100% {width: 130%; background-color: rgba(29, 17, 0, 1);}
   }
 
   @keyframes SidebarLoad {
-    0%   {width: 0%;  background-color: rgba(101, 48, 36, 0);}
-    100% {width: 100%; background-color: rgba(101, 48, 36, 1);}
+    0%   {width: 0%;  background-color: rgba(101, 48, 36, 0); color: rgba(231, 206, 181, 0);}
+    100% {width: 10%; background-color: rgba(101, 48, 36, 1); color: rgba(231, 206, 181, 1);}
   } 
   
+  @keyframes SpecListHover {
+    0% {background-color: rgba(231, 206, 181); color: rgba(231, 206, 181, 0);}
+    100% {background-color: rgba(101, 48, 36); color: rgba(231, 206, 181, 1);}
+  }
+
   /* Tag styling */
   html, body {
     background-color: rgb(29, 17, 0);
@@ -93,11 +98,19 @@
     height: 100%;
     text-align: left;
     background-color: #653024;
+    color: #e7ceb5;
     padding: 0;
+
+    /* ANIMATION WORKS, JUST LOOKS BAD.
+       Make look better before adding
+    animation: SidebarLoad;
+    animation-duration: 1s;
+    animation-delay: 0.1s; 
+    */
   }
 
   footer a {
-    color: #e7ceb5;
+    color: inherit;
     margin-left: 5%;
     font-size: 32pt;
     text-align: left;
@@ -110,6 +123,7 @@
     animation: SidebarHover;
     animation-duration: 1s;
     animation-delay: 0s;
+    width: 130%;
   }
 
 /* Classes styling */
@@ -123,6 +137,15 @@
     padding: 1rem 1rem;
     vertical-align: top;
     border: 2px rgba(0,0,0,0.3) solid;
+  }
+
+  .Specs:hover {
+    animation: SpecListHover;
+    animation-duration: 0.75s;
+    animation-delay: 0s;
+
+    background-color: rgba(101, 48, 36);
+    color: rgba(231, 206, 181, 1);
   }
 
 /* ID styling */
