@@ -3,4 +3,5 @@ This is the documentation for the CIS room at Pinkerton Academy. The documentati
 For those who want to update this documentation you can do so by commiting changes to this github repo. Access to such will be provided by Mr.eno himself. Feel free to make a branch or use this as a template to make your own version of the site before submitting it to Mr. Eno to be examined and commited.
 
 This documentation was created initially by Lantis Hegg with further documentation provided by Thomas Philips and Connor Schuler.
+John Buck helped with updates and styling.
 If you have any questions contact me at mailto:DeltaSleet@gmail.com
