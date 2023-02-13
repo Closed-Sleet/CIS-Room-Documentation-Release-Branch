@@ -44,6 +44,11 @@
     font-weight: regular;
   }
 
+  img {
+    background-color: rgba(0,0,0, 0.5); 
+    padding: 1%;
+  }
+
   ul {
     list-style-type: none;
     text-align: center;
@@ -165,6 +170,11 @@
     font-weight: bold;
     margin: 1% auto 1% auto;
     max-width: 50%;
+  }
+
+  img {
+    background-color: rgba(0,0,0, 0.5); 
+    padding: 1%;
   }
 
   a {
