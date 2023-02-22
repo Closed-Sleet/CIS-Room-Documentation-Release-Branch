@@ -47,8 +47,6 @@
   img {
     background-color: rgba(0,0,0, 0.5); 
     padding: 1%;
-    text-align: center;
-    width: 80%;
   }
 
   ul {
@@ -74,8 +72,17 @@
     position: absolute;
     left: 0;
     width: 100%;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
     text-align: center;
-    background-color: rgb(20,20,20);
+    background-color: rgb(200,200,200);
+  }
+
+  footer img {
+    background-color: rgba(0,0,0,0);
+    Width: auto;
+    margin: 0;
+    padding: 0;
   }
 
   footer ul {
@@ -203,7 +210,7 @@
   footer {
     display: block;
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 10%;
     height: 100%;
@@ -218,6 +225,13 @@
       animation-duration: 1s;
       animation-delay: 0.1s; 
     */
+  }
+
+  footer img {
+    background-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   footer a {
