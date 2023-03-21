@@ -13,7 +13,7 @@
   /* Tag styling */
   html, body {
     background-color: rgb(30,30,30);
-    color: rgb(200,200,200);
+    color: rgb(250,250,250);
     height: auto;
     width: auto;
     font-family: 'IBM Plex Mono', monospace;
@@ -145,9 +145,12 @@
     font-weight: bold;
   }
 
-  ul.Specs {
+  ul {
     list-style-type: none;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
   }
 
   ul:nth-child(odd) {
@@ -156,6 +159,15 @@
 
   ul:nth-child(even) {
     width: 45%;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  li h2 {
+    margin: 2px 0 2px 0;
+    padding: 0;
   }
 
   p {
@@ -211,7 +223,7 @@
   }
 
   footer a {
-    color: inherit;
+    color: white;
     margin-left: 5%;
     font-size: 32pt;
     text-align: left;
@@ -230,6 +242,12 @@
   }
 
 /* Classes styling */
+  .Proj {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+
   .SubText {
     font-size: 10pt;
     padding: 0;
