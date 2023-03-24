@@ -126,7 +126,7 @@
 
   /* Tag styling */
   html, body {
-    background-color: #00051d;
+    background-color: rgb(29, 17, 0);
     color: #5b6770;
     height: auto;
     width: auto;
@@ -210,8 +210,8 @@
     width: 10%;
     height: 100%;
     text-align: left;
-    background-color: #242d65;
-    color: #b5cae7;
+    background-color: #653024;
+    color: white;
     padding: 0;
   }
 
@@ -263,11 +263,11 @@
   }
 
   .Specs:hover {
-    background-color: #242b65;
+    background-color: #653024;
     color: rgba(231, 206, 181, 1);
   }
 
-/* ID styling */
+/* ID styling */ 
   #FOOTER {
     list-style-type: none;
     text-align: left;
